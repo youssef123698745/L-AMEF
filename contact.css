@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #f8f8f8;
+  color: #1c1c1c;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  margin-top: -30px;
+}
+.blog-content {
+  padding: 25px;
+  padding-top: 0px;
+}
+.blog-item {
+    background-color: #FFF;
+    flex: 0 0 30%;
+    border-bottom: 5px solid #e7e7e7;
+    box-shadow: 0px 10px 15px 5px #0000000f;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.blog-title {
+  margin-bottom: 5px;
+}
+.blog-date {
+  font-size: 1em;
+  color: #898989;
+}
+.blog-image > img {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.btn {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+}
+.btn-red {
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: #FFF;
+}
+@media only screen and ( max-width:950px ){
+  .blog-item {
+    flex-basis: 100%;
+  }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,#5f2c82,#dc2424,#5f2c82);
+    background-size: 200%
+}
+header{
+    background-color: rgba(255,255,255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.logo {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fafafa;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 50px;
+    font-family: 'Saira Stencil One', cursive;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px; 
+    border-bottom: 2px solid #fff;
+}
+
+ul li a {
+    font-size: 1.1em;
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+ul li a:hover{
+    color: rgba(255,255,255, .5)
+}
+
+.contact button{
+    background: #b8263f;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: 5px 13px;
+    color: #fafafa;
+    margin-right: 50px;
+    font-size: 1.3em;
+    font-weight: 400;
+    transition: .3s;
+    cursor: pointer;
+}
+.contact button:hover{
+    background: #dc2424
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 90%;
+    padding: 50px;
+    margin: auto;
+}
+
+.content .cont{
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-right: 50px;
+    padding: 40px 0 0 0;
+}
+
+.cont h1 {
+    font-family: 'Saira Stencil One', cursive;
+    margin: 0 0 20px 20px;
+    color: #fafafa;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.cont p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1em;
+    color: rgba(255,255,255, .5);
+    margin: 0 0 20px 20px;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 3px
+}
+
+.buttons-two {
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.buttons-two img {
+    display: block;
+    margin: 10px auto 30px auto;
+}
+
+.buttons-two button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fafafa;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: .9em;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.buttons-two button:hover {
+    background-color: orangered;
+    border: 1px solid orangered
+}
+
+.buttons-two .mst {
+    background-color: orangered;
+    border: 1px solid orangered
+}
+
+.buttons-two .mst:hover {
+    background: transparent;
+    border: 1px solid #fff
+}
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+
+	text-rendering:optimizeLegibility;
+}
+
+
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}

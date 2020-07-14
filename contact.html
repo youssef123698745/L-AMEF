@@ -1,0 +1,53 @@
+<html>
+    <head>
+<title>L'AMEF : Contact</title>
+<meta charset ="utf-8">
+<link rel="stylesheet" href="./contact.css">
+<script src="./contact.js"></script>
+    </head>
+    <body>
+ <div class="up">
+            <div class="nav">
+                <header>
+                  <a href="index.html"><div class="logo">AMEF</div></a>
+                    <nav>
+                       <ul>
+                           <li><a href="index.html">Accueil</a></li>
+                           <li><a href="service.html">service</a></li>
+                           <li><a href="blog.html">blog</a></li>
+                       </ul>
+                    </nav>
+                    <a href="#" class="contact"><button>contact</button></a>
+                </header>
+            </div>
+            <div class="container">  
+              <form
+              action="https://formspree.io/mleplevv"
+              method="POST"
+            >
+                  <h3>Contacter</h3>
+                  <h4>Contacter L'AMEF</h4>
+                  <fieldset>
+                    <input  name="nom" placeholder="Ton nom" type="email" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Ton email" name="_replyto" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input name="Phone Number" placeholder="Ton Phone Number" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea type="text" name="message" placeholder="Ton Message...." tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="my-form-status" data-submit="...Sending">Envoyer</button>
+                  </fieldset>
+                  <p id="my-form-status"></p>
+                </form>
+              </div>
+              <!--Javascript-->
+              <script>
+              </script>
+
+    </body>
+</html>
